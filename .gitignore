@@ -1,0 +1,19 @@
+# Ignore virtual environment directory
+venv/
+
+# Ignore PyCharm-specific files
+.idea/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files and caches
+logs/
+__pycache__/
+*.pyc
+.DS_Store
+*.csv
+*.xlsx
+*.parquet
+*.db
+.env
