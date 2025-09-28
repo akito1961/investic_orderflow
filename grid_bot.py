@@ -79,7 +79,7 @@ MAX_OPEN_ORDERS = 10        # จำกัดดีลเปิดพร้อ�
 GRID_CSV = "grid_plan.csv"  # ไฟล์กริด (ต้องมี buy_price, coin_size, tp_price/tp_pct)
 GRID_RELOAD_SEC = 0         # รีโหลดกริดอัตโนมัติทุก N วินาที (0=ปิด)
 
-DRY_RUN = False             # True = โหมดเดโม, False = ส่งออเดอร์จริง
+DRY_RUN = True             # True = โหมดเดโม, False = ส่งออเดอร์จริง
 
 MIN_NOTIONAL_OVERRIDE = None   # ไม่ลดต่ำกว่าค่าจริง: ใช้ max(ค่าจากตลาด, override); ตั้ง None เพื่อใช้ค่าจากตลาดล้วน
 SLIP_PCT = 0.0007           # buffer คำนวณจำนวนเหรียญขั้นต่ำ: ใช้ best_ask*(1+SLIP_PCT)
